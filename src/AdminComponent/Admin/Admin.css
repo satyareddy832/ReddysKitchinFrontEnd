@@ -1,0 +1,27 @@
+/* Styles for Admin component */
+
+.admin-container {
+    display: flex;
+  }
+  
+  .sidebar {
+    flex: 1;
+    width: 10%;
+    color: #fff;
+  }
+  
+  .content {
+    flex: 4;
+    width: 80%;
+    padding: 20px;
+  }
+  
+  /* Responsive styles for larger screens */
+  @media (max-width: 768px) {
+    .admin-container {
+      flex-direction: column;
+    }
+  
+    
+  }
+  

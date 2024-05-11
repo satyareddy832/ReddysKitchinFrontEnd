@@ -1,0 +1,40 @@
+/* Styles for AdminSideBar component */
+
+.admin-sidebar {
+  display: flex;
+}
+
+.sidebar-content {
+  width: 260px; /* Width of the sidebar */
+  height: 100vh; /* Full height of the viewport */
+  background-color: #333; /* Dark background color */
+  color: #fff; /* Text color */
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+h2 {
+  margin: 10;
+  font-size: 20px;
+}
+
+.menu-items {
+  flex: 1; /* Allow menu items to expand and fill remaining space */
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item {
+  display: block;
+  text-decoration: none;
+  color: #fff; /* Text color */
+  padding: 30px 0;
+  transition: background-color 0.3s ease;
+}
+
+.menu-item:hover {
+  background-color: #f4ecec00; /* Darker background color on hover */
+}
